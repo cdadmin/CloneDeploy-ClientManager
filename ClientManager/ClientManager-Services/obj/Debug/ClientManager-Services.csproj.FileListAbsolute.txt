@@ -1,0 +1,17 @@
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-Services.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-Services.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-DataModel.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-Entities.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\EntityFramework.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\log4net.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\System.Data.SQLite.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-DataModel.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-Entities.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\EntityFramework.xml
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\log4net.xml
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\System.Data.SQLite.xml
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\obj\Debug\ClientManager-Services.csprojResolveAssemblyReference.cache
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\obj\Debug\ClientManager-Services.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\obj\Debug\ClientManager-Services.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-Dtos.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Services\bin\Debug\ClientManager-Dtos.pdb

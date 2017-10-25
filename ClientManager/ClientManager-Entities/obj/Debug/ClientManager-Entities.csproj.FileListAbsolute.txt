@@ -1,0 +1,9 @@
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\obj\Debug\ClientManager-Entities.csprojResolveAssemblyReference.cache
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\bin\Debug\ClientManager-Entities.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\bin\Debug\ClientManager-Entities.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\obj\Debug\ClientManager-Entities.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\obj\Debug\ClientManager-Entities.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\bin\Debug\ClientManager-Dtos.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\bin\Debug\ClientManager-Dtos.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\bin\Debug\log4net.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Entities\bin\Debug\log4net.xml

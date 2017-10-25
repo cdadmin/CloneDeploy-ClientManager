@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D125FD6C-A664-4A17-9E3B-AE2F77976590}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientManager_Policies</RootNamespace>
+    <AssemblyName>ClientManager-Policies</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InventorySearchers\Bios.cs" />
+    <Compile Include="InventorySearchers\ComputerSystem.cs" />
+    <Compile Include="InventorySearchers\HardDrive.cs" />
+    <Compile Include="InventorySearchers\IInventorySearcher.cs" />
+    <Compile Include="InventorySearchers\OS.cs" />
+    <Compile Include="InventorySearchers\Printer.cs" />
+    <Compile Include="InventorySearchers\Processor.cs" />
+    <Compile Include="InventorySearchers\Software.cs" />
+    <Compile Include="InventorySearchers\WMI.cs" />
+    <Compile Include="Modules\ModuleCommandManager.cs" />
+    <Compile Include="Modules\ModuleFileCopy.cs" />
+    <Compile Include="Modules\ModuleInventory.cs" />
+    <Compile Include="Modules\ModulePrintManager.cs" />
+    <Compile Include="Modules\ModuleScriptManager.cs" />
+    <Compile Include="Modules\ModuleSoftwareManager.cs" />
+    <Compile Include="Modules\ModuleUserLogins.cs" />
+    <Compile Include="PolicyExecutor.cs" />
+    <Compile Include="PolicyRunner.cs" />
+    <Compile Include="PolicySelector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClientManager-Dtos\ClientManager-Dtos.csproj">
+      <Project>{fa1a3d13-069c-4bc1-a6fc-08acdd133959}</Project>
+      <Name>ClientManager-Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientManager-Entities\ClientManager-Entities.csproj">
+      <Project>{7422cbf1-6606-49ae-8829-a4ae4c4c943c}</Project>
+      <Name>ClientManager-Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientManager-Services\ClientManager-Services.csproj">
+      <Project>{6a129a6d-de3a-4490-bbbd-63646b3b4256}</Project>
+      <Name>ClientManager-Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

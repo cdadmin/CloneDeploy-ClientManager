@@ -1,0 +1,6 @@
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Dtos\bin\Debug\ClientManager-Dtos.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Dtos\bin\Debug\ClientManager-Dtos.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Dtos\obj\Debug\ClientManager-Dtos.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Dtos\obj\Debug\ClientManager-Dtos.pdb
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Dtos\bin\Debug\log4net.dll
+C:\Users\jdolny\Development\CloneDeploy-ClientManager\ClientManager\ClientManager-Dtos\bin\Debug\log4net.xml
